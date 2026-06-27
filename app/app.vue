@@ -1,3 +1,7 @@
 <template>
-  <div class="container mx-auto">helloo</div>
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
