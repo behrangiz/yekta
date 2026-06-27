@@ -1,14 +1,10 @@
 <template>
-  <div class="h-170 relative">
-    <div class="absolute right-0 w-1/2 h-full z-10 overflow-hidden">
-      <img
-        src="https://media.istockphoto.com/id/1352282558/de/foto/junges-frauenportr%C3%A4t-mit-neonfarben.jpg?s=2048x2048&w=is&k=20&c=uD2xOUSgIBHAstDZ83LkR_3vJsdN7AX-YYpCMgxX1-g="
-        alt=""
-        class="w-full h-full object-cover"
-      />
+  <div class="h-200 relative">
+    <div class="absolute right-0 w-2/3 h-full z-10 overflow-hidden">
+      <img src="/yekta.jpg" alt="" class="w-full h-full object-cover object-top" />
     </div>
     <div
-      class="gd bg-linear-to-r from-black to-transparent z-20 w-full h-full absolute"
+      class="gd bg-linear-to-r from-black  to-transparent z-20 w-full h-full absolute"
     ></div>
     <div
       class="container z-20 relative mx-auto w-full h-full flex items-center opacity-80"

@@ -3,7 +3,7 @@
     <div
       class="glass-nav h-[62px] border border-primary/40 rounded-xl flex justify-between items-center px-3 py-3 w-full transition-transform hover:scale-[1.01] hover:border-primary/80"
     >
-      <div class="font-bold cursor-pointer">Yekta Tabibi</div>
+      <div class="font-bold cursor-pointer">Yekta</div>
 
       <button
         class="flex items-center justify-center text-on-surface hover:text-primary transition-colors cursor-pointer"
