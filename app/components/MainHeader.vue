@@ -1,7 +1,7 @@
 <template>
   <nav class="fixed top-5 left-0 right-0 w-full z-70 flex container mx-auto">
     <div
-      class="glass-nav h-[58px] border border-white/10 rounded-xl flex justify-between items-center px-3 py-3 w-full transition-transform hover:scale-[1.01] hover:border-primary/80"
+      class="glass-nav h-[70px] border border-white/10 rounded-xl flex justify-between items-center px-3 py-3 w-full transition-transform hover:scale-[1.01] hover:border-primary/80"
     >
       <div class="font-bold cursor-pointer">Yekta</div>
 

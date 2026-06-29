@@ -1,6 +1,6 @@
 <template>
   <article
-    class="group relative overflow-hidden h-[250px] rounded-2xl border border-white/10 bg-black transition-all duration-500 hover:border-primary"
+    class="group relative overflow-hidden h-[250px] rounded-2xl border border-primary/20 bg-black transition-all duration-500 hover"
   >
     <!-- Image -->
     <div class="overflow-hidden">
@@ -13,7 +13,7 @@
 
     <!-- Gradient -->
     <div
-      class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent transition duration-500 group-hover:from-black group-hover:via-black/60"
+      class="absolute -bottom-30 inset-0 bg-gradient-to-t from-black  to-transparent transition duration-500 group-hover:from-black group-hover:via-black/60"
     ></div>
 
     <!-- Border Animation -->
@@ -78,8 +78,8 @@ article:hover {
   transform: translateY(-8px);
   border-color: var(--primary);
   box-shadow:
-    0 30px 60px rgba(0, 0, 0, 0.45),
-    0 0 0 1px rgba(255, 255, 255, 0.05),
+    0 30px 60px rgba(228, 24, 24, 0.45),
+    0 0 0 1px rgba(151, 12, 12, 1),
     0 0 40px rgb(var(--primary));
 }
 </style>

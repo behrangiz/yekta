@@ -1,7 +1,7 @@
 <template>
   <section class="relative overflow-hidden bg-black py-28">
     <!-- background -->
-    <div class="absolute inset-0 bg-black/70 backdrop-blur-3xl"></div>
+    <div class="absolute inset-0 bg-black/90 backdrop-blur-3xl"></div>
 
     <div
       class="absolute -top-40 -left-40 w-[500px] h-[500px] bg-primary/30 blur-[140px] rounded-full float"
@@ -14,20 +14,21 @@
     <div class="relative z-10 container mx-auto px-6 pl-20">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <!-- Image -->
-        <div class="lg:col-span-6">
+        <div class="lg:col-span-1"></div>
+        <div class="lg:col-span-5 s">
           <div
             class="group relative rounded-2xl overflow-hidden border border-white/10"
           >
             <img
               src="https://plus.unsplash.com/premium_photo-1682146717223-874ac7dcc607?q=80&w=1170&auto=format&fit=crop"
               alt="About Me"
-              class="w-full h-[500px] object-cover transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0 grayscale"
+              class="w-full h-[600px] object-cover transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0 grayscale"
             />
           </div>
         </div>
 
         <!-- Content -->
-        <div class="lg:col-span-6 pt-35">
+        <div class="lg:col-span-5 pt-35">
           <span class="text-primary uppercase tracking-[0.35em] text-xs">
             About Me
           </span>

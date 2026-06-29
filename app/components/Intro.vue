@@ -1,6 +1,6 @@
 <template>
   <div class="h-200 relative">
-    <div class="absolute right-0 w-4/5 h-full z-10 overflow-hidden">
+    <div class="absolute right-0 w-3/6 h-full z-10 overflow-hidden">
       <img
         src="/yekta.jpg"
         alt=""
@@ -13,7 +13,7 @@
     <div
       class="container z-20 relative mx-auto w-full h-full flex items-center opacity-90"
     >
-      <div>
+      <div class="bg-black px-10 rounded-lg">
         <h3 class="text-5xl">Hey,</h3>
         <h1 class="text-8xl font-bold">
           I’m Yekta <span class="">Tabibi</span>

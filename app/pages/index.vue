@@ -3,5 +3,6 @@
     <Intro />
     <AboutMe />
     <Projects />
+    <Contact/>
   </div>
 </template>
