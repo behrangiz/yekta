@@ -1,18 +1,22 @@
 <template>
   <div class="h-200 relative">
-    <div class="absolute right-0 w-2/3 h-full z-10 overflow-hidden">
-      <img src="/yekta.jpg" alt="" class="w-full h-full object-cover object-top" />
+    <div class="absolute right-0 w-4/5 h-full z-10 overflow-hidden">
+      <img
+        src="/yekta.jpg"
+        alt=""
+        class="w-full h-full object-cover object-top"
+      />
     </div>
     <div
-      class="gd bg-linear-to-r from-black  to-transparent z-20 w-full h-full absolute"
+      class="gd bg-linear-to-r from-black/80   to-transparent z-20 w-full h-full absolute"
     ></div>
     <div
-      class="container z-20 relative mx-auto w-full h-full flex items-center opacity-80"
+      class="container z-20 relative mx-auto w-full h-full flex items-center opacity-90"
     >
       <div>
-        <h3 class="text-4xl">Hey,</h3>
-        <h1 class="text-6xl">
-          I’m Yekta <span class="font-bold">Tabibi</span>
+        <h3 class="text-5xl">Hey,</h3>
+        <h1 class="text-8xl font-bold">
+          I’m Yekta <span class="">Tabibi</span>
         </h1>
         <p class="mt-2">A cinematographer and director.</p>
       </div>

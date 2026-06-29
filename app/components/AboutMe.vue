@@ -11,65 +11,68 @@
     ></div>
 
     <!-- content -->
-    <div class="relative z-10 container mx-auto px-6">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        <!-- IMAGE -->
-        <div class="image-reveal group relative order-2 lg:order-1">
+    <div class="relative z-10 container mx-auto px-6 pl-20">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Image -->
+        <div class="lg:col-span-6">
           <div
-            class="absolute -inset-2 bg-gradient-to-r from-primary/40 to-purple-500/40 blur-2xl opacity-40 group-hover:opacity-70 transition"
-          ></div>
-
-          <div
-            class="relative rounded-2xl overflow-hidden border border-white/10"
+            class="group relative rounded-2xl overflow-hidden border border-white/10"
           >
             <img
               src="https://plus.unsplash.com/premium_photo-1682146717223-874ac7dcc607?q=80&w=1170&auto=format&fit=crop"
-              class="w-full h-[420px] md:h-[560px] object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition duration-700"
+              alt="About Me"
+              class="w-full h-[500px] object-cover transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0 grayscale"
             />
           </div>
         </div>
 
-        <!-- TEXT -->
-        <div class="text-reveal text-white order-1 lg:order-2">
-          <!-- label -->
-          <p class="text-xs tracking-[0.5em] text-primary uppercase opacity-80">
+        <!-- Content -->
+        <div class="lg:col-span-6 pt-35">
+          <span class="text-primary uppercase tracking-[0.35em] text-xs">
             About Me
+          </span>
+
+          <div class="w-20 h-px bg-primary mt-1 mb-2"></div>
+
+          <h2 class="text-4xl lg:text-6xl font-bold leading-tight">
+            Building immersive
+            <span class="">digital experiences</span>
+          </h2>
+
+          <p class="mt-8 text-white/70 leading-8 max-w-3xl">
+            I'm a frontend developer specializing in Vue, Nuxt, and modern UI
+            development. I enjoy transforming ideas into responsive,
+            interactive, and visually engaging websites that combine performance
+            with elegant design. I'm a frontend developer specializing in Vue,
+            Nuxt, and modern UI development. I enjoy transforming ideas into
+            responsive, interactive, and visually engaging websites that combine
+            performance with elegant design.
           </p>
 
-          <div class="w-16 h-[2px] bg-primary mt-3 mb-6"></div>
-
-          <!-- title -->
-          <h1 class="text-3xl md:text-5xl font-bold leading-tight">
-            I build
-            <span
-              class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400"
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
+            <div
+              class="group border-l border-primary rounded-xl p-5 hover: transition-all duration-300"
             >
-              modern web experiences
-            </span>
-            with motion & depth.
-          </h1>
-
-          <!-- description -->
-          <p class="mt-6 text-white/70 leading-relaxed max-w-xl">
-            I’m a frontend developer focused on crafting immersive, fast and
-            scalable web experiences using Vue, Nuxt and modern UI systems.
-          </p>
-
-          <!-- features -->
-          <div class="mt-10 space-y-3">
-            <div class="feature">
-              <span class="dot bg-primary"></span>
-              Motion-first UI systems
+              <h3
+                class="font-semibold group-hover:text-primary transition-colors"
+              >
+                Frontend Development
+              </h3>
+              <p class="mt-2 text-sm text-white/60">
+                Vue, Nuxt, Tailwind CSS, TypeScript
+              </p>
             </div>
-
-            <div class="feature">
-              <span class="dot bg-purple-400"></span>
-              High-performance Nuxt apps
-            </div>
-
-            <div class="feature">
-              <span class="dot bg-cyan-400"></span>
-              Clean scalable architecture
+            <div
+              class="group border-l border-primary rounded-xl p-5 hover: transition-all duration-300"
+            >
+              <h3
+                class="font-semibold group-hover:text-primary transition-colors"
+              >
+                Frontend Development
+              </h3>
+              <p class="mt-2 text-sm text-white/60">
+                Vue, Nuxt, Tailwind CSS, TypeScript
+              </p>
             </div>
           </div>
         </div>
